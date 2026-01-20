@@ -35,6 +35,7 @@ This repository is used as a **learning playground** and **portfolio evidence** 
 ---
 
 ## 🗂 Project Structure
+```text
 lib/
 ├── main.dart
 ├── pages/
