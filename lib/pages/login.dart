@@ -10,8 +10,8 @@ class Login extends StatefulWidget {
 }
 
 class _Login extends State<Login> {
-  String registeredEmail = 'riki@gmailcom';
-  String registeredPass = 'riki';
+  String registeredEmail = 'r';
+  String registeredPass = 'r';
 
   String inputEmail = '';
   String inputPass = '';
@@ -54,6 +54,7 @@ class _Login extends State<Login> {
                             if (value == null || value.isEmpty) {
                               return "Email must be included";
                             }
+                            return null;
                           },
                           decoration: const InputDecoration(labelText: "Email"),
                         ),
